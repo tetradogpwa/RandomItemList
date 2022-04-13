@@ -31,7 +31,6 @@
                     localStorage.setItem(ITEMSKEY, $('#txtItems').val());
                 });
                 $('#btnRandom').click(()=>{  
-                    console.log('clic enter');
                     var item;
                     var items=$('#txtItems').val();
                     var color=0;
@@ -52,7 +51,6 @@
                     lastColor=color;
                     $('#lblItem').html(item);
                     $('#lblItem').css('color',Colors[color]);
-                    console.log('clic exit');
                 });
 
 
