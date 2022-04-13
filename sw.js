@@ -1,4 +1,4 @@
-const CACHE_VERSION_ANTERIOR = 0; //subo aqui para no tener problemas :D
+const CACHE_VERSION_ANTERIOR = 1; //subo aqui para no tener problemas :D
 const CACHE_VERSION = CACHE_VERSION_ANTERIOR + 1;
 const APP = "RandomItemList";
 
